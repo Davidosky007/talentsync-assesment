@@ -3,6 +3,7 @@ import Frequent from "./components/Frequent";
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
 import Partner from "./components/Partner";
+import Service from "./components/Service";
 import Testimonial from "./components/Testimonial";
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Edge/>
         <Testimonial/>
         <Frequent/>
+        <Service/>
       </div>
     </>
   );
