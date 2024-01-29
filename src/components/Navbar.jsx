@@ -13,7 +13,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-gray-100 border border-gray-300 mt-12 container rounded-full relative">
+    <nav className="bg-gray-100 border border-gray-300 mt-12 container rounded-full relative ">
       {/* Desktop Navigation */}
       <div className="md:flex justify-between items-center w-[95%] mx-auto hidden py-2 flex-wrap">
         <Link to="/" className="flex items-center gap-1 text-gray-900 font-semibold text-lg">
