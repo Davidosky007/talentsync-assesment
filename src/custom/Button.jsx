@@ -1,5 +1,4 @@
-// Removed unused import statement
-import { Link } from "react-router-dom"; // Assuming you are using React Router for navigation
+import { Link } from "react-router-dom"; 
 
 import PropTypes from 'prop-types';
 

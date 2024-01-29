@@ -14,7 +14,7 @@ const Navbar = () => {
 
   return (
     <nav className="bg-gray-100 border border-gray-300 mt-12 container rounded-full relative ">
-      {/* Desktop Navigation */}
+      {/* Desktop */}
       <div className="md:flex justify-between items-center w-[95%] mx-auto hidden py-2 flex-wrap">
         <Link to="/" className="flex items-center gap-1 text-gray-900 font-semibold text-lg">
           <img src={Logo} alt="" />
@@ -68,7 +68,7 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* Mobile Navigation */}
+      {/* Mobile */}
       <div className="md:hidden flex justify-between items-center p-4">
         <Link to="/" className="flex items-center gap-1 text-gray-900 font-semibold text-lg">
           <img src={Logo} alt="" />
@@ -87,7 +87,7 @@ const Navbar = () => {
         )}
       </div>
 
-      {/* Mobile Menu Overlay */}
+      {/* Mobile Menu */}
       {isMobileMenuOpen && (
         <div className="md:hidden bg-gray-100 px-6 py-8 absolute top-20 left-0 right-0 z-50 w-full rounded-md ">
           <ul className="text-gray-700  cursor-pointer">
