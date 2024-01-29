@@ -2,7 +2,7 @@ import { useState } from "react";
 import { FiMenu, FiChevronDown, } from "react-icons/fi";
 import { CgClose } from "react-icons/cg";
 import { Link } from "react-router-dom";
-import Logo from "../assets/Logo.svg";
+import Logo from "../assets/logo.svg";
 import Button from "../custom/Button";
 
 const Navbar = () => {
