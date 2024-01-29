@@ -2,6 +2,7 @@ import Edge from "./components/Edge";
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
 import Partner from "./components/Partner";
+import Testimonial from "./components/Testimonial";
 function App() {
   return (
     <>
@@ -10,6 +11,7 @@ function App() {
         <Header/>
         <Partner/>
         <Edge/>
+        <Testimonial/>
       </div>
     </>
   );
