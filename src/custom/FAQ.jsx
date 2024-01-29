@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import { useState } from "react";
-import minus from "../public/minus-circle.svg";
-import plus from "../public/plus-circle.svg";
+import minus from "../assets/minus-circle.svg";
+import plus from "../assets/plus-circle.svg";
 
 const FAQ = ({ question, answer }) => {
   const [isOpen, setIsOpen] = useState(false);
