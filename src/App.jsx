@@ -1,4 +1,5 @@
 import Edge from "./components/Edge";
+import Footer from "./components/Footer";
 import Frequent from "./components/Frequent";
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
@@ -16,6 +17,7 @@ function App() {
         <Testimonial/>
         <Frequent/>
         <Service/>
+        <Footer/>
       </div>
     </>
   );
